@@ -1,0 +1,12 @@
+.form-input{
+    width: 30%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: #4287f5;
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+.form-input:focus{
+    outline: none;
+}
