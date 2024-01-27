@@ -6,6 +6,7 @@ import {Route, Routes} from 'react-router-dom'
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
+import Logout from './pages/Logout';
 import Items from './pages/Items';
 
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/nutrition" element = {<Items />} />
           <Route path="/login" element = {<Login />} />
           <Route path="/signup" element = {<Signup />} /> 
+          <Route path="/logout" element = {<Logout />} />
         </Routes>
     </>
 
